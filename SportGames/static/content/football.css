@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'SFFONT';
-    src: url("static/fonts/SF-Pro-Display-Regular.otf");
+    src: url('static/fonts/SF-Pro-Display-Regular.ttf');
 }
 .fon {
     background-image: url(static/images/nafon1.jpg);

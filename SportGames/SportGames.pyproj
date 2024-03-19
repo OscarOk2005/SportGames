@@ -44,6 +44,7 @@
     <Content Include="static\content\football.css" />
     <Content Include="static\content\index.css" />
     <Content Include="static\fonts\SF-Pro-Display-Regular.otf" />
+    <Content Include="static\fonts\SF-Pro-Display-Regular.ttf" />
     <Content Include="static\images\croyf.png" />
     <Content Include="static\images\fight.png" />
     <Content Include="static\images\fotball.jpg" />
