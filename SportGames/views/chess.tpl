@@ -4,7 +4,7 @@
 </head>
 
 <div style = "background-image:url(https://ss.sport-express.ru/userfiles/materials/196/1961840/volga.jpg);  background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;">
-	<div style="text-align: center; background-color:white; margin-left:10%; margin-right:10%;">
+	<div style="text-align: center; background-color:white; margin-left:10%; margin-right:10%; padding: 3%">
 		<h2>История возникновения и развития шахмат </h2>
 
 		<a class="Chessa">
@@ -12,6 +12,7 @@
 			<p class="Chessp">Распространившись из Индии в соседние страны, чатуранга претерпела ряд изменений. На востоке она стала носить название – шатрандж, в Китае – сянци, в Тайланде – макрук. В IX—X веке игра попала в Европу, где были составлены «классические» правила игры. Окончательно правила сформировались в XIX веке.</p>
 			<p class="Chessp">В 1886 году был проведен первый чемпионат мира по шахматам.</p>
 		</a>
+
 		<h2 class="Chessh2">Шахматные фигуры</h2>
 		<div class="containerChess">
 			<div class="column">
@@ -73,11 +74,10 @@
 			<p class="Chessp">Кроме обычных ходов, в шахматах существуют 2 специальных хода:</p>
 			<div class="containerChess">
 				<li class="Chessli">Взятие на проходе – специальный ход пешки, при котором она берет пешку соперника, которая была перемещена сразу на два поля. Но под боем оказывается не то поле, на котором остановилась вторая пешка, а то, которое было пересечено ею.</li>
-				<img scr="static/images/Взятие.gif"></img>
+				<img src="static/images/Взятие.gif"></img>
 			</div>
 			<div class="containerChess">
 				<li class="Chessli">Рокировка – одновременная смена положения короля и ладьи одного цвета, при условии, что они не двигались с начала игры. При рокировке король сдвигается на 2 клетки по направлению к ладье, а ладья ставится на поле между начальной и конечной позицией короля. Рокировка считается ходом короля. </li>
-				<img scr="static/images/Рокировка.gif"></img>
 			</div>
 			<p class="Chessp">В правилах ФИДЕ описаны правила рокировки.</p>
 			<p class="Chessp"><b>Рокировка невозможна:</b></p>

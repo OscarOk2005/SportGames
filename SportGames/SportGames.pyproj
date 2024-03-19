@@ -57,7 +57,6 @@
     <Content Include="static\images\Король.png" />
     <Content Include="static\images\Ладья.png" />
     <Content Include="static\images\Пешка.png" />
-    <Content Include="static\images\Рокировка.gif" />
     <Content Include="static\images\Слон.png" />
     <Content Include="static\images\спорт.jpg" />
     <Content Include="static\images\Ферзь.png" />
