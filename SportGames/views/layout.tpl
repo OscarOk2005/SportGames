@@ -24,13 +24,7 @@
         </div>
     </div>
 
-    <div class="container body-content">
-        {{!base}}
-        <hr />
-        <footer>
-            <p>&copy; {{ year }} - SportGames</p>
-        </footer>
-    </div>
+    {{!base}}
 
     <script src="/static/scripts/jquery-1.10.2.js"></script>
     <script src="/static/scripts/bootstrap.js"></script>

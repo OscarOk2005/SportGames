@@ -33,6 +33,7 @@
     <Compile Include="routes.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="static\images\" />
     <Folder Include="static\" />
     <Folder Include="static\content\" />
     <Folder Include="static\fonts\" />
@@ -40,6 +41,14 @@
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="static\images\Взятие.gif" />
+    <Content Include="static\images\Конь.png" />
+    <Content Include="static\images\Король.png" />
+    <Content Include="static\images\Ладья.png" />
+    <Content Include="static\images\Пешка.png" />
+    <Content Include="static\images\Рокировка.gif" />
+    <Content Include="static\images\Слон.png" />
+    <Content Include="static\images\Ферзь.png" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />
@@ -67,6 +76,8 @@
     <Content Include="views\football.tpl" />
     <Content Include="views\index.tpl" />
     <Content Include="views\layout.tpl" />
+    <Content Include="static\content\Styles.css" />
+    <Content Include="Styles.css" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env1\">
