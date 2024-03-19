@@ -41,7 +41,16 @@
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="static\content\football.css" />
     <Content Include="static\content\index.css" />
+    <Content Include="static\images\croyf.png" />
+    <Content Include="static\images\fight.png" />
+    <Content Include="static\images\fotball.jpg" />
+    <Content Include="static\images\jashin.png" />
+    <Content Include="static\images\maradona.png" />
+    <Content Include="static\images\nafon1.jpg" />
+    <Content Include="static\images\pele.png" />
+    <Content Include="static\images\sheffild.png" />
     <Content Include="static\images\Взятие.gif" />
     <Content Include="static\images\Конь.png" />
     <Content Include="static\images\Король.png" />
