@@ -10,6 +10,8 @@ from datetime import datetime
 def home():
     """Renders the home page."""
     return dict(
+        title='Homepage',
+        message='Your football page.',
         year=datetime.now().year
     )
 
