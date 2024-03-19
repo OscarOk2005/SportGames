@@ -18,7 +18,7 @@
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
     <Name>SportGames</Name>
     <RootNamespace>SportGames</RootNamespace>
-    <InterpreterId>MSBuild|env1|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,6 +43,7 @@
   <ItemGroup>
     <Content Include="static\content\football.css" />
     <Content Include="static\content\index.css" />
+    <Content Include="static\fonts\SF-Pro-Display-Regular.otf" />
     <Content Include="static\images\croyf.png" />
     <Content Include="static\images\fight.png" />
     <Content Include="static\images\fotball.jpg" />
@@ -90,10 +91,10 @@
     <Content Include="static\content\Styles.css" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="env1\">
-      <Id>env1</Id>
+    <Interpreter Include="env\">
+      <Id>env</Id>
       <Version>3.10</Version>
-      <Description>env1 (Python 3.10 (64-bit))</Description>
+      <Description>env (Python 3.10 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>

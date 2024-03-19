@@ -1,5 +1,9 @@
+@font-face {
+    font-family: 'SFFONT';
+    src: url("static/fonts/SF-Pro-Display-Regular.otf");
+}
 .fon {
-    background-image: url(Material/nafon1.jpg);
+    background-image: url(static/images/nafon1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -41,7 +45,5 @@
     height: 400px; 
     margin: 2%; 
 }
-@font-face {
-    font-family: 'SFFONT';
-    src: url('fonts/SF-Pro-Display-Regular.otf');
-}
+
+
