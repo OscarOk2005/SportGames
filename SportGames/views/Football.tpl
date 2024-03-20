@@ -70,12 +70,13 @@
 		
 		<h1 style="margin-left: 8%; margin-right: 8%; margin-top: 5%;  font-size: 50px; text-align: center;"><b>Настоящие легенды футбола, которые навсегда изменили эту игру:</b></h1>
 
-		<div class = "telo" style="height: 2500px; display: block; margin-top: auto;">
+		<div class = "telo" style="height: 2550px; display: block; margin-top: auto;">
 			<div class="telo" style="background:none ; margin: auto;">
 				<p class="text" style="margin-top:7%"> 
 					<b>«Король футбола» Эдсон Арантис ду Насименту «Пеле» </b><br> <br>Изменил футбол Пеле очень просто. Феноменальная техника, умение бить с обеих ног,
 					а также сумасшедшая скорость — всё это козыри легендарного бразильца. Современники как один 
-					признавали величие бразильца, который и по сей день остаётся "королём".<br><br></p>
+					признавали величие бразильца, который и по сей день остаётся "королём".<br>
+					<a href = "https://bigenc.ru/c/pele-866fe5">Подробнее</a></p>
 				<img src = "static/images/pele.png" alt = "Пеле" class="photo" style="height: 400px; margin-top: 40px;"><br><br></p>
 			</div>
 			<div class ="telo" style="background:none ; margin: auto;" >
@@ -84,14 +85,17 @@
 					<b>Автор «руки Бога» и «гола столетия» Диего Марадона</b><br><br> Как изменил футбол? Характером. Настоящий бунтарь, который ничего и никого не боялся.
 					Надо обыграть шесть человек — пожалуйста. Забить чем угодно, даже рукой, — легко. Оттого-то и плакал
 					абсолютно весь мир, когда Марадона ушёл из жизни. Возможно, именно он — символ всей Аргентины. 
-					Был, есть и будет. <br><br></p>
+					Был, есть и будет. <br>
+					<a href = "https://bigenc.ru/c/maradona-diego-armando-6f6a86">Подробнее</a> </p>
+				
 			</div>
 			
 			<div class="telo" style="background:none ; margin: auto;">
 				<p class="text" style="margin-top: 30px;"> <br><br>
 					<b>Лучший вратарь всех времен и народов – Лев Иванович Яшин</b><br><br>Именно он привнёс во вратарское искусство умение выходить из ворот и действовать 
 					по всей штрафной площади. Что любопытно, изначально в СССР такое не приветствовали и даже называли
-					цирком. Но вскоре стало понятно, что без этого не обойтись.<br><br></p>
+					цирком. Но вскоре стало понятно, что без этого не обойтись.<br>
+					<a href = "https://bigenc.ru/c/iashin-lev-ivanovich-015876">Подробнее</a></p>
 				<img src = "static/images/jashin.png" alt = "Яшин" class="photo" style="height: 400px; margin-top: 40px;"><br><br></p>
 			</div>
 
@@ -99,7 +103,8 @@
 				<img src = "static/images/croyf.png" alt = "Кройф" class="photo"><br><br>
 				<p align = "left" class="text" style="margin-top: 120px;"> 
 					<b>Отец «тотального» футбола – Йохан Кройф</b><br><br>Cамого Кройфа нередко считают человеком, который придумал современную манеру
-					футбола. Здесь даже можно не задаваться вопросом, как именно Кройф изменил футбол. <br><br></p>
+					футбола. Здесь даже можно не задаваться вопросом, как именно Кройф изменил футбол. <br>
+					<a href = "https://bigenc.ru/c/kroif-iokhan-9ae5f7">Подробнее</a></p>
 			</div>
 
 			<div class="telo" style="background:none ; margin: auto;">
@@ -111,8 +116,10 @@
 					
 					Бессмысленно говорить, как именно они изменили футбол. Мировые рекорды, "Золотые мячи", признание 
 					и всемирная любовь. А самое главное — вечное противостояние, без которого бы они просто не было 
-					такими, какими мы их знаем.</p>
-				<img src = "static/images/fight.png" alt = "Месси и Роналду" class="photo" style="height: 400px; margin-top: 130px;"><br><br></p>
+					такими, какими мы их знаем.<br>
+					<a href = "https://www.rbc.ru/person/6172a0169a7947335d664612">Подробнее о Роналду</a><br>
+					<a href = "https://olympics.com/ru/athletes/lionel-messi">Подробнее о Месси</a></p>
+				<img src = "static/images/fight.png" alt = "Месси и Роналду" class="photo" style="height: 400px; margin-top: 180px;"><br><br></p>
 			</div>
 		</div>
 </div>
