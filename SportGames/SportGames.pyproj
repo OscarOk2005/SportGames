@@ -59,7 +59,7 @@
     <Content Include="static\images\Ладья.png" />
     <Content Include="static\images\Пешка.png" />
     <Content Include="static\images\Слон.png" />
-    <Content Include="static\images\спорт.jpg" />
+    <Content Include="static\images\спорт.png" />
     <Content Include="static\images\Ферзь.png" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
