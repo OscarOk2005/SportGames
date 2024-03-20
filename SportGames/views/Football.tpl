@@ -7,7 +7,7 @@
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;"> 
-	<center><h1 style="font-size: 100px;  ">История футбола</h1></center>
+	<center><h1 style="font-size: 85px;padding-top:2%">История футбола</h1></center>
         <div class="telo" >
             <p align = "left" class="text" style="margin-top:2%">  <b>Футбол</b> – командный вид спорта, где нужно забить (любой частью тела, кроме рук)
             в противоположные ворота большее количество голов, чем соперник. <br>
@@ -16,7 +16,7 @@
             континентах, об этом говорят повсеместные находки археологов. <br>
             В Древнем Китае существовала игра, известная как «Цуцзюй», упоминания о которой были датированы 
             вторым веком до нашей эры. По заявлению ФИФА в 2004 году, именно она считается наиболее древней</p>
-            <img src = "static/images/fotball.jpg" alt = "Цуцзюй" style="float: right; border-radius: 8vw; border: 3px solid #000000 ; height: 400px; margin: 2%; margin-top: 2.5%"><br><br> 
+            <img src = "static/images/fotball.jpg" alt = "Цуцзюй" class="photo" style="height: 400px; margin: 2%; margin-top: 2.5%;" ><br><br> 
         </div>
 		<div class="telo" style="margin-top:5%; margin-bottom:0%">
 			<p align = "left" class="text" style="margin-top:2.5%; margin-bottom:0%"> Первый в истории международный матч прошел в 1872 году – Англия против Шотландии.
