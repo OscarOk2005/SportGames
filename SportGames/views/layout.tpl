@@ -19,6 +19,9 @@
                 <ul class="nav navbar-nav">
                     <li><a href="/chess">Шахматы</a></li>
                     <li><a href="/football">Футбол</a></li>
+                    <li><a href="/articles">Статьи</a></li>
+                    <li><a href="/orders">Заказы</a></li>
+                    <li><a href="/partners">Партнеры</a></li>
                 </ul>
             </div>
         </div>

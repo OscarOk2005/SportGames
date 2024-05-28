@@ -34,3 +34,33 @@ def chess():
         message='Your chess page.',
         year=datetime.now().year
     )
+
+@route('/articles')
+@view('articles')
+def chess():
+    """Renders the articles page."""
+    return dict(
+        title='Articles',
+        message='Your articles page.',
+        year=datetime.now().year
+    )
+
+@route('/orders')
+@view('orders')
+def chess():
+    """Renders the orders page."""
+    return dict(
+        title='Orders',
+        message='Your orders page.',
+        year=datetime.now().year
+    )
+
+@route('/partners')
+@view('partners')
+def chess():
+    """Renders the partners page."""
+    return dict(
+        title='Partners',
+        message='Your partners page.',
+        year=datetime.now().year
+    )
