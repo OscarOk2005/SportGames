@@ -1,4 +1,4 @@
-#!D:\SportGames\SportGames\env\Scripts\python.exe
+#!D:\Колледж\!лабы\ИСРПО\Коды\SportGames\SportGames\env\Scripts\python.exe
 # -*- coding: utf-8 -*-
 """
 Bottle is a fast and simple micro-framework for small web applications. It
