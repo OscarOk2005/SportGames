@@ -4,6 +4,8 @@ Routes and views for the bottle application.
 
 from bottle import route, view
 from datetime import datetime
+import json
+import addOrder
 
 @route('/')
 @view('index')
@@ -48,12 +50,16 @@ def chess():
 @route('/orders')
 @view('orders')
 def chess():
+    with open('static\orders.json', 'r', encoding='utf-8') as f:
+        orderList = json.load(f)
     """Renders the orders page."""
     return dict(
         title='Orders',
         message='Your orders page.',
-        year=datetime.now().year
+        year=datetime.now().year,
+        data=orderList
     )
+
 
 @route('/partners')
 @view('partners')
