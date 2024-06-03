@@ -69,6 +69,7 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\partner_companies.json" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
     <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />
