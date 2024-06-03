@@ -8,9 +8,9 @@
         <h1 class="main_title_of_text">"Sport is a cure for bad moods and depression."</h1>
         <p class="main_text">
             In today's world, sport has gained immense popularity and has become an integral 
-part of the daily life of millions of people. It plays an important role not only in physical health, but also in social activity, entertainment, commerce 
-and international relations. Sport has the ability to unite people regardless of race, gender, age and social status, making it the most 
-popular and important aspect of modern society.</p>
+            part of the daily life of millions of people. It plays an important role not only in physical health, but also in social activity, entertainment, commerce 
+            and international relations. Sport has the ability to unite people regardless of race, gender, age and social status, making it the most 
+            popular and important aspect of modern society.</p>
     </header>
 
     <div class="constrain">
@@ -18,7 +18,7 @@ popular and important aspect of modern society.</p>
             <h2 class="title_of_text">Historical background</h2>
             <p class="main_text">
                 The birth of sport is attributed to the appearance of the first competitions.<br>
-                Первые соревнования относятся к эпохе Древнего мира, когда в 776 году до н.э. в Древней Греции были проведены первые Олимпийские игры.<br>
+                The first competitions date back to the Ancient World when the first Olympic Games were held in Ancient Greece in 776 BC.<br>
                 In ancient Greece, there were special places for competitions called stadiums. They were used for races for various distances, competitions in running, javelin, discus and other sports.<br>
                 Over time, the Olympic Games were held every four years, and their popularity spread throughout Greece. At this time, new sports such as wrestling, fist fighting and chariot racing began to appear.<br>
                 After the fall of the Roman Empire, the sport became less popular, but in the Middle Ages it began to revive again. During this period, tournaments of knights were organised, which took place on special grounds - ristalisks.<br>
@@ -31,7 +31,7 @@ popular and important aspect of modern society.</p>
         <div>
                 <h2 class="title_of_text">The importance of sport</h2>
                 <p class="main_text">
-                    Спорт имеет огромное значение в истории, политике и культуре. В древние времена спортивные соревнования использовались для укрепления общественных связей, разрешения конфликтов между народами и установления мира. For example, the Ancient Olympic Games in Ancient Greece were a kind of international sports festival in which participating cities ceased wars for the duration of the games. Sports competitions also served as a propaganda and soft power tool for states, demonstrating their power and ability to attract and manage people.<br>
+                    Sport is of great importance in history, politics and culture. In ancient times, sports competitions were used to strengthen social ties, resolve conflicts between peoples and establish peace. For example, the Ancient Olympic Games in Ancient Greece were a kind of international sports festival in which participating cities ceased wars for the duration of the games. Sports competitions also served as a propaganda and soft power tool for states, demonstrating their power and ability to attract and manage people.<br>
                     In the modern world, sport is of great importance for the development of physical and spiritual health of society, it serves as a means of social integration, cohesion and formation of national identity. In addition, sporting events contribute to the development of tourism, business relations and cultural exchange between different countries and peoples. Thus, sport plays a significant role in shaping historical events as well as reflecting important aspects of culture and society.
                 </p>
         </div>

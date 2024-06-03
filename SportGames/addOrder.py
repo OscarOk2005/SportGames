@@ -1,6 +1,7 @@
 from bottle import post, request, template
 from datetime import date
 import json
+import re
 
 @post('/orders', method='post')
 
@@ -16,14 +17,14 @@ def addOrder():
         orderList = json.load(f)
         number = orderList[-1]["Number"] + 1
         
-    if(len(customer) < 4):
-        return "Неккоректное имя"
+    if(checkCustomer(customer)):
+        return "Incorrect name"
     if(len(product) <= 2):
-        return "Неккоректный товар"
-    if(len(phone) != 11):
-        return "Неккоректный телефон"
+        return "Incorrect product"
+    if(checkPhone(phone)):
+        return "Incorrect phone"
     if(len(address) < 20):
-        return "Неккоректный адрес"
+        return "Incorrect address"
     orderList.append({"Number": number, "Customer" : customer,"Product":product, "Order date":  str(date.today()),"Phone": phone, "Address": address, "Delivery": str(delivery)})
     with open('static\orders.json', 'w') as outfile:
         json.dump(orderList, outfile, indent=4)
@@ -32,5 +33,22 @@ def addOrder():
         year=date.now().year,
         data=orderList)
 
+def checkCustomer(customer):
+    if(len(customer) > 35 or len(customer) < 4):
+        return False
+    x = re.search("^[a-z]{1,}[\-]{0,1}[a-z]{1,}$", customer.lower())
+    if x:
+        return True
+    else:
+        return False
 
-
+def checkPhone(phone):
+    if(phone[0] == '+' and len(phone) != 12):
+        return False
+    elif (len(phone) != 11):
+        return False
+    x = re.search("^[8|+7]{1}[\d]{10,11}$", phone)
+    if x:
+        return True
+    else:
+        return False

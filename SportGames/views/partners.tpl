@@ -17,11 +17,11 @@
                             <div class="panel-body">
                                 <p>{{ company['описание'] }}</p>
                                 <p><strong>Email:</strong> <a href="mailto:{{ company['email'] }}">{{ company['email'] }}</a></p>
-                                <p><strong>Телефон:</strong> {{ company['телефон'] }}</p>
-                                <p><strong>Детали партнерства:</strong></p>
-                                <p>Дата начала: {{ company['детали_партнерства']['дата_начала'] }}</p>
-                                <p>Срок контракта: {{ company['детали_партнерства']['срок_контракта'] }} года</p>
-                                <p>Тип контракта: {{ company['детали_партнерства']['тип_контракта'] }}</p>
+                                <p><strong>Phone:</strong> {{ company['телефон'] }}</p>
+                                <p><strong>Details of the partnership:</strong></p>
+                                <p>Start date:: {{ company['детали_партнерства']['дата_начала'] }}</p>
+                                <p>Term of the contract: {{ company['детали_партнерства']['срок_контракта'] }} года</p>
+                                <p>Type of contract: {{ company['детали_партнерства']['тип_контракта'] }}</p>
                             </div>
                         </div>
                     </div>

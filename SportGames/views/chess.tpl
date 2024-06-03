@@ -27,7 +27,7 @@
 				<div class="containerChess">
 					<img src="static/images/Конь.png" width="125" height="170"></img>
 					<a class="Chessa">
-						<p class="Chessp" width="45%">Конь – ходит на клетку, находящуюся на расстоянии 2 по вертикали и 1 по горизонтали или 1 по вертикали и 2 по горизонтали от текущего положения. В начале партии у каждого из игроков есть по 2 коня.</p>
+						<p class="Chessp" width="45%">Knight - moves to a square that is 2 vertically and 1 horizontally or 1 vertically and 2 horizontally from the current position. At the beginning of the game each player has 2 knights.</p>
 					</a>
 				</div>
 			</div>

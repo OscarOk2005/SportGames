@@ -17,13 +17,13 @@ def addParthner():
         number = orderList[-1]["Number"] + 1
         
     if(len(customer) < 4):
-        return "Неккоректное имя"
+        return "Incorrect name"
     if(len(product) <= 2):
-        return "Неккоректный товар"
+        return "Incorrect product"
     if(len(phone) != 11):
-        return "Неккоректный телефон"
+        return "Incorrect phone"
     if(len(address) < 20):
-        return "Неккоректный адрес"
+        return "Incorrect address"
     orderList.append({"Number": number, "Customer" : customer,"Product":product, "Order date":  str(date.today()),"Phone": phone, "Address": address, "Delivery": str(delivery)})
     with open('static\orders.json', 'w') as outfile:
         json.dump(orderList, outfile, indent=4)
