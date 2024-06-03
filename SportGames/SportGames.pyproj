@@ -29,6 +29,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="addArticle.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="addOrder.py">
       <SubType>Code</SubType>
     </Compile>
