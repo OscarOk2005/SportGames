@@ -6,6 +6,7 @@ from bottle import route, view
 from datetime import datetime
 import json
 import addOrder
+import addArticle
 
 @route('/')
 @view('index')
@@ -40,13 +41,22 @@ def chess():
 @route('/articles')
 @view('articles')
 def articles():
-    """Renders the articles page."""
+    try:
+        # Пытаемся открыть файл "calchistory.json" для чтения
+        with open('static\\articles.json', 'r', encoding='utf-8') as read_json:
+            # Загружаем данные из файла в список articles
+            articles = json.load(read_json)
+    except FileNotFoundError:
+            # Если файл не найден, создаем новый словарь history с пустыми списками для каждого алгоритма    
+            articles = []
+    """Renders the about page."""
+    print("NOR")
     return dict(
-        title='Articles',
-        message='Your articles page.',
-        year=datetime.now().year
+        title='Addarticle',
+        message='Your application description page.',
+        year=datetime.now().year,
+        data=articles
     )
-
 @route('/orders')
 @view('orders')
 def orders():
