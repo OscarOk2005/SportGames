@@ -5,43 +5,43 @@
 
 <div class="main_constrain">
     <header class="header_title">
-        <h1 class="main_title_of_text">«Спорт – лекарство от плохого настроения и депрессий»</h1>
+        <h1 class="main_title_of_text">"Sport is a cure for bad moods and depression."</h1>
         <p class="main_text">
-            В современном мире спорт приобрел огромную популярность и стал неотъемлемой 
-            частью ежедневной жизни миллионов людей. Он играет важную роль не только в физическом здоровье, но и в социальной активности, развлечении, коммерции 
-            и международных отношениях. Спорт обладает способностью объединять людей независимо от расы, пола, возраста и социального статуса, что делает его наиболее 
-            популярным и важным аспектом современного общества.</p>
+            In today's world, sport has gained immense popularity and has become an integral 
+part of the daily life of millions of people. It plays an important role not only in physical health, but also in social activity, entertainment, commerce 
+and international relations. Sport has the ability to unite people regardless of race, gender, age and social status, making it the most 
+popular and important aspect of modern society.</p>
     </header>
 
     <div class="constrain">
         <div>
-            <h2 class="title_of_text">Историческая справка</h2>
+            <h2 class="title_of_text">Historical background</h2>
             <p class="main_text">
-                Зарождение спорта связывают с появлением первых состязаний.<br>
+                The birth of sport is attributed to the appearance of the first competitions.<br>
                 Первые соревнования относятся к эпохе Древнего мира, когда в 776 году до н.э. в Древней Греции были проведены первые Олимпийские игры.<br>
-                В Древней Греции существовали специальные места для проведения состязаний, называемые стадионами. На них устраивались забеги на различные дистанции, соревнования по бегу, метанию копья, диска и других видов спорта.<br>
-                Со временем Олимпийские игры стали проводиться каждые четыре года, и их популярность распространилась на всю Грецию. В это время начали появляться новые виды спорта, такие как борьба, кулачный бой и гонки на колесницах.<br>
-                После падения Римской империи спорт стал менее популярным, но в средние века он вновь начал возрождаться. В этот период были организованы турниры рыцарей, которые проходили на специальных площадках - ристалищах.<br>
-                С появлением огнестрельного оружия турниры рыцарей стали менее популярными, и на смену им пришли другие виды спорта, например, стрельба из лука и фехтование.<br>
-                Сегодня спорт является одним из самых популярных видов деятельности во всем мире. Он помогает людям поддерживать свое здоровье и физическую форму, а также способствует развитию командного духа и социальной интеграции.</p>
+                In ancient Greece, there were special places for competitions called stadiums. They were used for races for various distances, competitions in running, javelin, discus and other sports.<br>
+                Over time, the Olympic Games were held every four years, and their popularity spread throughout Greece. At this time, new sports such as wrestling, fist fighting and chariot racing began to appear.<br>
+                After the fall of the Roman Empire, the sport became less popular, but in the Middle Ages it began to revive again. During this period, tournaments of knights were organised, which took place on special grounds - ristalisks.<br>
+                With the advent of firearms, knights' tournaments became less popular and were replaced by other sports such as archery and fencing.<br>
+                Today, sport is one of the most popular activities all over the world. It helps people to maintain their health and fitness, as well as promoting team spirit and social inclusion.</p> <p>Sport is one of the most popular activities around the world.
         </div>
 
         <img src="static/images/спорт.png" class="text_image"></img>
 
         <div>
-                <h2 class="title_of_text">О важности спорта</h2>
+                <h2 class="title_of_text">The importance of sport</h2>
                 <p class="main_text">
-                    Спорт имеет огромное значение в истории, политике и культуре. В древние времена спортивные соревнования использовались для укрепления общественных связей, разрешения конфликтов между народами и установления мира. Например, Древние Олимпийские игры в Древней Греции были своего рода международным спортивным фестивалем, на котором участвующие города прекращали войны на время проведения игр. Спортивные соревнования также служили орудием пропаганды и мягкой силы для государств, демонстрируя их могущество и способность привлекать и управлять людьми.<br>
-                    В современном мире спорт имеет большое значение для развития физического и духовного здоровья общества, он служит средством социальной интеграции, сплочения и формирования национальной идентичности. Кроме того, спортивные мероприятия способствуют развитию туризма, деловых связей и культурного обмена между различными странами и народами. Таким образом, спорт играет значительную роль в формировании исторических событий, а также отражает важные аспекты культуры и общества.
+                    Спорт имеет огромное значение в истории, политике и культуре. В древние времена спортивные соревнования использовались для укрепления общественных связей, разрешения конфликтов между народами и установления мира. For example, the Ancient Olympic Games in Ancient Greece were a kind of international sports festival in which participating cities ceased wars for the duration of the games. Sports competitions also served as a propaganda and soft power tool for states, demonstrating their power and ability to attract and manage people.<br>
+                    In the modern world, sport is of great importance for the development of physical and spiritual health of society, it serves as a means of social integration, cohesion and formation of national identity. In addition, sporting events contribute to the development of tourism, business relations and cultural exchange between different countries and peoples. Thus, sport plays a significant role in shaping historical events as well as reflecting important aspects of culture and society.
                 </p>
         </div>
 
         <div>
-                <h2 class="title_of_text">А как сейчас</h2>
+                <h2 class="title_of_text">What's it like now</h2>
                 <p class="main_text">
-                    Современный человек может заниматься любым спортом, который ему по душе и приносит удовольствие. Распространенность спорта зависит от региона, культуры и интересов людей. Некоторые из наиболее распространенных спортов в мире включают футбол, баскетбол, теннис, бег, плавание, волейбол, гольф, езду на велосипеде и йогу. Однако, существуют и многие другие спортивные активности, которыми занимаются люди по всему миру. Важно выбрать спорт, который подходит именно вам и который вы будете с удовольствием заниматься.<br>
-                    Если человек не хочет заниматься определенным спортом, то выполнение обычных упражнений дома может быть отличной альтернативой. Упражнения на выносливость, силовые тренировки, гибкость, йога или пилатес - все эти виды физической активности могут быть выполнены в домашних условиях без использования специального оборудования. Это позволяет человеку поддерживать свою физическую форму, укреплять мышцы и суставы, повышать общий тонус организма, а также улучшать настроение и самочувствие. Такие упражнения могут быть также более удобными для занятых людей, которые не могут посещать спортивные залы или тренеровки постоянно.<br>
-                    Ниже приведен пример выполнения таких упражнений.
+                    A modern person can do any sport that he or she likes and enjoys. The prevalence of sports depends on the region, culture and interests of the people. Some of the most common sports in the world include soccer, basketball, tennis, running, swimming, volleyball, golf, cycling and yoga. However, there are many other sporting activities that people around the world engage in. It is important to choose a sport that is right for you and that you will enjoy doing.<br>
+                    If a person doesn't want to participate in a particular sport, doing regular exercises at home can be a great alternative. Endurance exercises, strength training, flexibility, yoga or Pilates - all these types of physical activity can be performed at home without the use of special equipment. This allows a person to keep fit, strengthen muscles and joints, improve overall body tone, and improve mood and well-being. Such exercises can also be more convenient for busy people who cannot attend gyms or workouts on a regular basis.<br>
+                    Below is an example of how to perform such exercises.
                 </p>
         </div>
     </div>

@@ -13,15 +13,15 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a href="/" class="navbar-brand">Главная</a>
+                <a href="/" class="navbar-brand">Main</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/chess">Шахматы</a></li>
-                    <li><a href="/football">Футбол</a></li>
-                    <li><a href="/articles">Статьи</a></li>
-                    <li><a href="/orders">Заказы</a></li>
-                    <li><a href="/partners">Партнеры</a></li>
+                    <li><a href="/chess">Chess</a></li>
+                    <li><a href="/football">Soccer</a></li>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/orders">Orders</a></li>
+                    <li><a href="/partners">Partners</a></li>
                 </ul>
             </div>
         </div>
