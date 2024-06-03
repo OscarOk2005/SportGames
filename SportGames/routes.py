@@ -39,7 +39,7 @@ def chess():
 
 @route('/articles')
 @view('articles')
-def chess():
+def articles():
     """Renders the articles page."""
     return dict(
         title='Articles',
@@ -49,7 +49,7 @@ def chess():
 
 @route('/orders')
 @view('orders')
-def chess():
+def orders():
     with open('static\orders.json', 'r', encoding='utf-8') as f:
         orderList = json.load(f)
     """Renders the orders page."""
@@ -60,13 +60,15 @@ def chess():
         data=orderList
     )
 
-
 @route('/partners')
 @view('partners')
-def chess():
+def partners():
+    with open('static\partner_companies.json', 'r', encoding='utf-8') as f:
+        partner_companies = json.load(f)
     """Renders the partners page."""
     return dict(
         title='Partners',
+        partner_companies=partner_companies,
         message='Your partners page.',
         year=datetime.now().year
     )

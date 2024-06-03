@@ -40,3 +40,16 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-valid {
     display: none;
 }
+
+.panel-group {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.input_container {
+    margin-top: 20px;
+}
+
+#input_company_form * {
+    margin: 6px;
+}
