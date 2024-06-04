@@ -43,6 +43,10 @@
     </Compile>
     <Compile Include="app.py" />
     <Compile Include="routes.py" />
+    <Compile Include="test_AddParthner_CheckPhone.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_AddParthner_CheckDate.py">
     <Compile Include="test_CheckCustomerFalse.py">
       <SubType>Code</SubType>
     </Compile>
