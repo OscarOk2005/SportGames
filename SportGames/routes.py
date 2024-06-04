@@ -43,15 +43,18 @@ def chess():
 @view('articles')
 def articles():
     try:
-        # Пытаемся открыть файл "calchistory.json" для чтения
+        # Пытаемся открыть файл "articles.json" для чтения
         with open('static\\articles.json', 'r', encoding='utf-8') as read_json:
             # Загружаем данные из файла в список articles
             articles = json.load(read_json)
+            # сортируем список articles по дате в обратном порядке
+            articles.sort(key=lambda x: x[list(x.keys())[0]]['date'], reverse=True)
     except FileNotFoundError:
-            # Если файл не найден, создаем новый словарь history с пустыми списками для каждого алгоритма    
+            # Если файл не найден, создаем новый список articles    
             articles = []
+    except:
+        articles = []
     """Renders the about page."""
-    print("NOR")
     return dict(
         title='Addarticle',
         message='Your application description page.',
