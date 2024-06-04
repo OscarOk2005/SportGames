@@ -1,8 +1,17 @@
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+html {
+    height: 100%;
 }
 
+body {
+    position: relative;
+    min-height: 100%;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+#header_hame {
+    margin-top: 30px;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -42,14 +51,62 @@ input[type="checkbox"].input-validation-error {
 }
 
 .panel-group {
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .input_container {
-    margin-top: 20px;
+    position: fixed !important;
+    margin-left: 540px;
 }
 
-#input_company_form * {
+.input_form * {
     margin: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #42e695;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+    .footer * {
+        margin: 10px;
+        color: white;
+    }
+
+#app_header {
+    background-color: #42e695 !important;
+    border-color: #42e695 !important;
+}
+
+.navbar-nav a {
+    color: white !important;
+    text-decoration: none;
+}
+
+    .navbar-nav a:hover {
+        text-decoration: underline !important;
+    }
+
+.navbar-header a {
+    color: white !important;
+    text-decoration: none;
+}
+
+    .navbar-header a:hover {
+        text-decoration: underline;
+    }
+
+#container_forms {
+    margin-top: 30px;
 }

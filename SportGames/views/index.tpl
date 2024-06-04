@@ -5,7 +5,7 @@
 
 <div class="main_constrain">
     <header class="header_title">
-        <h1 class="main_title_of_text">"Sport is a cure for bad moods and depression."</h1>
+        <h1 class="main_title_of_text" id="header_hame">"Sport is a cure for bad moods and depression."</h1>
         <p class="main_text">
             In today's world, sport has gained immense popularity and has become an integral 
             part of the daily life of millions of people. It plays an important role not only in physical health, but also in social activity, entertainment, commerce 
