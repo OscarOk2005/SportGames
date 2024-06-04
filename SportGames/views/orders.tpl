@@ -35,10 +35,10 @@
     <h1> Add an order</h1>
     <div class="input_container col-xs-6 col-sm-4 thumbnail">
         <form action="/orders" method="post" action="/action_page.php" required name="myForm">
-                <p><input type="text" size="50" name="Customer" placeholder="Your surname and name" ></p>
-                <p><input type="text" size="50" name="Product" placeholder="Your product"  ></p>
-                <p><input type="text" size="50" name="Phone" placeholder="Your phone" ></p>
-                <p><input type="text" size="50" name="Address" placeholder="Your address"  \></p>
+                <p><input type="text" size="50" name="Customer" pattern="[a-zA-Z\-]{4,}" title="Enter first and last name with a space in Latin characters" placeholder="Your surname and name" ></p>
+                <p><input type="text" size="50" name="Product" pattern="[a-zA-Z\-]{2,}" title="Enter product name in Latin characters" placeholder="Your product"  ></p>
+                <p><input type="text" size="50" name="Phone" pattern="[0-9\+]{2,}" title="Phone can consist of numbers and +" placeholder="Your phone" ></p>
+                <p><input type="text" size="50" name="Address" pattern="[a-zA-Z\-.]{12,}"  title="Enter your address in Latin characters, - and ." placeholder="Your address"  \></p>
 		        <p><input id="html" size="50" name="Delivery" type="checkbox">Home delivery</p>
                 <p><input type="submit" value="Send" class="btn btn-default"></p>
         </form>
