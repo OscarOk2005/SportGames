@@ -5,8 +5,8 @@
      <h1 class="text-center">Articles</h1>
 
      <div class="row col-md-6">
-        % for company in data:
-            % for nameofarticle, details in company.items():
+        % for art in data:
+            % for nameofarticle, details in art.items():
                 <div class="col-md-12 col-sm-8">
                     <div class="panel-group">
                         <div class="panel panel-default">
@@ -18,7 +18,7 @@
                             <div id="collapse{{ nameofarticle }}" class="panel-collapse collapse collapse">
                                 <div class="panel-body">
                                     <p><strong>Author: </strong>{{ details['author'] }}</p>
-                                    <p><strong>Description: </strong>{{ details['text'] }}</p>
+                                    <p  style="word-break:break-all" ><strong>Description: </strong>{{ details['text'] }}</p>
                                     <p><strong>Link: </strong> <a href="{{ details['link'] }}" target="_blank">{{ details['link'] }}</a></p>
                                     <p><strong>Date: </strong> {{ details['date'] }}</p>
                                 </div>
@@ -38,10 +38,10 @@
                     title="The title of the article must contain at least 8 characters!">
                 </div>
                 <div class="form-group">
-                    <textarea rows="2" cols="50"  title="The description of the article must contain at least 50 characters!" name="DESCRIPTION" class="form-control input-sm"  placeholder="Description of the article" style="resize:none;"></textarea>
+                    <textarea rows="2" cols="50" title="The description of the article must contain at least 20 characters!" name="DESCRIPTION" class="form-control input-sm"  placeholder="Description of the article" style="resize:none;"></textarea>
                 </div>
                 <div class="form-group">
-                    <input type="text" size="50" name="USERNAME" class="form-control input-sm" autocomplete="off" placeholder="Your nickname" 
+                    <input type="text"  name="USERNAME" class="form-control input-sm" autocomplete="off" placeholder="Your nickname" 
                     title="The name must be between 2 and 20 characters long" >
                 </div>
                 <div class="form-group">
@@ -55,8 +55,3 @@
         </div>
     </div>
 </div>
- 
-
-
-
-
