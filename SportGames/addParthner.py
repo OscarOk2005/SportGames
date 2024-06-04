@@ -24,9 +24,9 @@ def addParthner():
             return "The name is already used!"
     if (not checkEmal(email)):
         return "The email format is incorrect. E-mail should consist only of Latin letters, numbers and special characters, as well as have from 6 to 30 characters at the beginning and either @gmail.com , or @mail.ru, or yandex.ru at the end."
-    if (checkPhone(phone)):
+    if (not checkPhone(phone)):
         return "Incorrect phone! The phone must consist of 11 digits."
-    if (checkStart_date(start_date)):
+    if (not checkStart_date(start_date)):
         return "The date should not be earlier than the today."
     if not contract_term.isdigit():
         return "Contract term  must consist of only digits."
@@ -43,12 +43,13 @@ def addParthner():
             "contract_term": contract_term,
             "contract_type": contract_type,
         }})
-    with open('static\partner_companies.json', 'r', encoding='utf-8') as f:
-        partner_companies = json.load(f)
+    with open('static\partner_companies.json', 'w') as outfile:
+        json.dump(partnerList, outfile, indent=4)
     """Renders the partners page."""
-    return dict(
+    return template(
+        'partners.tpl',
         title='Partners',
-        partner_companies=partner_companies,
+        partner_companies=partnerList,
         message='Your partners page.',
         year=datetime.now().year
     )
@@ -60,22 +61,24 @@ def checkEmal(email):
 def checkPhone(phone):
     if(phone[0] == '+' and len(phone) != 12):
         return False
-    elif (len(phone) != 11):
+    if (phone[0] != '+' and len(phone) != 11):
         return False
-    x = re.search("^[8|+7]{1}[\d]{10,11}$", phone)
+    x = re.search("^8|\+7{1}[\d]{10,11}$", phone)
     if x:
         return True
     else:
         return False
-    
-def checkStart_date(start_date):
-    format_string = "%Y-%m-%d"
-    date_object = datetime.strptime(start_date, format_string)
-    if (date_object > datetime.now()):
-        return True
-    else:
-        return False
 
+def checkStart_date(dastart_datete):
+    try:
+        regex = r'\d{4}-\d{2}-\d{2}$'
+        if re.search(regex, dastart_datete):
+            if(datetime.strptime(dastart_datete, '%Y-%m-%d') <= datetime.now() and datetime.strptime(dastart_datete, '%Y-%m-%d') >= datetime(1900, 1, 1)):
+                return True
+        return False
+    except:
+        return False
+    
 def checkContract_type(contract_type):
     if (contract_type == "Exclusive" or contract_type == "Non-exclusive"):
         return False

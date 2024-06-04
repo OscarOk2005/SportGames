@@ -19,6 +19,9 @@
     <Name>SportGames</Name>
     <RootNamespace>SportGames</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>unittest</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,6 +43,12 @@
     </Compile>
     <Compile Include="app.py" />
     <Compile Include="routes.py" />
+    <Compile Include="test_AddParthner_CheckPhone.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_AddParthner_CheckDate.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="static\images\" />
