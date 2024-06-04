@@ -1,11 +1,11 @@
 % rebase('layout.tpl', title=title, year=year)
-<div class="container">
+
+<div class="container" id="container_forms">
     <h1 class="text-center">Orders</h1>
 
-    <div class="row">
-
+    <div class="row col-md-6">
         % for order in data:
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-12 col-sm-6">
                 <div class="panel-group">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -32,17 +32,27 @@
         % end
     </div>
 
-    <h1> Add an order</h1>
-    <div class="input_container col-xs-6 col-sm-4 thumbnail">
-        <form action="/orders" method="post" action="/action_page.php" required name="myForm">
-                <p><input type="text" size="50" name="Customer" placeholder="Your surname and name" ></p>
-                <p><input type="text" size="50" name="Product" placeholder="Your product"  ></p>
-                <p><input type="text" size="50" name="Phone" placeholder="Your phone" ></p>
-                <p><input type="text" size="50" name="Address" placeholder="Your address"  \></p>
-		        <p><input id="html" size="50" name="Delivery" type="checkbox">Home delivery</p>
+    <div class="input_container col-xs-4 col-sm-3">
+        <h3>Adding a new order</h3>
+        <div class="thumbnail">
+            <form class="input_form" action="/partners" method="post" action="/action_page.php" required name="myForm">
+                <div class="form-group">
+                    <input type="text" size="50" name="Customer" placeholder="Your surname and name" >
+                </div>
+                <div class="form-group">
+                    <input type="text" size="50" name="Product" placeholder="Your product">
+                </div>
+                <div class="form-group">
+                    <input type="text" size="50" name="Phone" placeholder="Your phone" >
+                </div>
+                <div class="form-group">
+                    <input type="text" size="50" name="Address" placeholder="Your address">
+                </div>
+                <div class="form-group">
+                    <p><input id="html" size="50" name="Delivery" type="checkbox">Home delivery</p>
+                </div>
                 <p><input type="submit" value="Send" class="btn btn-default"></p>
+            </div>
         </form>
     </div>
 </div>
-
-

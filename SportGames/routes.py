@@ -7,6 +7,7 @@ from datetime import datetime
 import json
 import addOrder
 import addArticle
+import addParthner
 
 @route('/')
 @view('index')

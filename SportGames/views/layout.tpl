@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top" id="app_header">
         <div class="container">
             <div class="navbar-header">
                 <a href="/" class="navbar-brand">Main</a>
@@ -28,6 +28,10 @@
     </div>
 
     {{!base}}
+
+    <div class="footer">
+            <p>&copy; {{ year }} SportGames</p>
+    </div>
 
     <script src="/static/scripts/jquery-1.10.2.js"></script>
     <script src="/static/scripts/bootstrap.js"></script>
