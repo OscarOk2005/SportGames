@@ -11,6 +11,30 @@
                 "contract_term": "1",
                 "contract_type": "Exclusive"
             }
+        },
+        {
+            "id": 2,
+            "name": "Sport company 2",
+            "description": "Brief description of Sport company 2",
+            "email": "company2mail@gmail.com",
+            "phone": "82222222222",
+            "partnership_details": {
+                "start_date": "2024-06-02",
+                "contract_term": "2",
+                "contract_type": "Exclusive"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Sport company 3",
+            "description": "Brief description of Sport company 3",
+            "email": "company3mail@gmail.com",
+            "phone": "83333333333",
+            "partnership_details": {
+                "start_date": "2024-06-03",
+                "contract_term": "3",
+                "contract_type": "Exclusive"
+            }
         }
     ]
 }
