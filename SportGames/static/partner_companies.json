@@ -1,63 +1,63 @@
 {
-  "партнерские_компании_в_сфере_спорта": [
+  "partner_companies_in_sports_sphere": [
     {
       "id": 1,
-      "название": "Спортивная Компания А",
-      "описание": "Краткое описание Спортивной Компании А",
+      "name": "Sports Company A",
+      "description": "Brief description of Sports Company A",
       "email": "info@sportsco-a.com",
-      "телефон": "+1-202-555-0126",
-      "детали_партнерства": {
-        "дата_начала": "2021-01-01",
-        "срок_контракта": 2,
-        "тип_контракта": "Эксклюзивный"
+      "phone": "+1-202-555-0126",
+      "partnership_details": {
+        "start_date": "2021-01-01",
+        "contract_term": 2,
+        "contract_type": "Exclusive"
       }
     },
     {
       "id": 2,
-      "название": "Спортивная Компания Б",
-      "описание": "Краткое описание Спортивной Компании Б",
+      "name": "Sports Company B",
+      "description": "Brief description of Sports Company B",
       "email": "info@sportsco-b.com",
-      "телефон": "+1-202-555-0127",
-      "детали_партнерства": {
-        "дата_начала": "2021-02-01",
-        "срок_контракта": 1,
-        "тип_контракта": "Неэксклюзивный"
+      "phone": "+1-202-555-0127",
+      "partnership_details": {
+        "start_date": "2021-02-01",
+        "contract_term": 1,
+        "contract_type": "Non-exclusive"
       }
     },
     {
       "id": 3,
-      "название": "Спортивная Компания В",
-      "описание": "Краткое описание Спортивной Компании В",
-      "email": "info@sportsco-b.com",
-      "телефон": "+1-202-555-0127",
-      "детали_партнерства": {
-        "дата_начала": "2021-02-01",
-        "срок_контракта": 1,
-        "тип_контракта": "Неэксклюзивный"
+      "name": "Sports Company C",
+      "description": "Brief description of Sports Company C",
+      "email": "info@sportsco-c.com",
+      "phone": "+1-202-555-0128",
+      "partnership_details": {
+        "start_date": "2021-03-01",
+        "contract_term": 3,
+        "contract_type": "Exclusive"
       }
     },
     {
       "id": 4,
-      "название": "Спортивная Компания Г",
-      "описание": "Краткое описание Спортивной Компании Г",
-      "email": "info@sportsco-b.com",
-      "телефон": "+1-202-555-0127",
-      "детали_партнерства": {
-        "дата_начала": "2021-02-01",
-        "срок_контракта": 1,
-        "тип_контракта": "Неэксклюзивный"
+      "name": "Sports Company D",
+      "description": "Brief description of Sports Company D",
+      "email": "info@sportsco-d.com",
+      "phone": "+1-202-555-0129",
+      "partnership_details": {
+        "start_date": "2021-04-01",
+        "contract_term": 2,
+        "contract_type": "Non-exclusive"
       }
     },
     {
       "id": 5,
-      "название": "Спортивная Компания Д",
-      "описание": "Краткое описание Спортивной Компании Д",
-      "email": "info@sportsco-b.com",
-      "телефон": "+1-202-555-0127",
-      "детали_партнерства": {
-        "дата_начала": "2021-02-01",
-        "срок_контракта": 1,
-        "тип_контракта": "Неэксклюзивный"
+      "name": "Sports Company E",
+      "description": "Brief description of Sports Company E",
+      "email": "info@sportsco-e.com",
+      "phone": "+1-202-555-0130",
+      "partnership_details": {
+        "start_date": "2021-05-01",
+        "contract_term": 1,
+        "contract_type": "Exclusive"
       }
     }
   ]

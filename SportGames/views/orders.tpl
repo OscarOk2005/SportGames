@@ -1,11 +1,11 @@
 % rebase('layout.tpl', title=title, year=year)
-<div class="container">
+
+<div class="container" id="container_forms">
     <h1 class="text-center">Orders</h1>
 
-    <div class="row">
-
+    <div class="row col-md-6">
         % for order in data:
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-12 col-sm-6">
                 <div class="panel-group">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -41,8 +41,7 @@
                 <p><input type="text" size="50" name="Address" pattern="[a-zA-Z\-.]{12,}"  title="Enter your address in Latin characters, - and ." placeholder="Your address"  \></p>
 		        <p><input id="html" size="50" name="Delivery" type="checkbox">Home delivery</p>
                 <p><input type="submit" value="Send" class="btn btn-default"></p>
+            </div>
         </form>
     </div>
 </div>
-
-
