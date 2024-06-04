@@ -29,26 +29,26 @@
             % end
         % end
     </div>
-    <div class="input_container col-xs-4 col-sm-3">
+    <div class="input_container col-xs-4 col-sm-3 text-center">
         <h3> Adding an article</h3>
         <div class ="thumbnail">
-            <form name="input_form" action="/articles" method="post" name="myForm"  required>
+            <form name="input_form" class="input_form" action="/articles" method="post" name="myForm"  required>
                 <div class="form-group">
-                    <input type="text" size="50" name="TITLE" autocomplete="off" placeholder="Title of the article"
-                    title="The title of the article must contain at least 8 characters (without using special characters)!">
+                    <input type="text" class="form-control input-sm" name="TITLE" autocomplete="off" placeholder="Title of the article"
+                    title="The title of the article must contain at least 8 characters!">
                 </div>
                 <div class="form-group">
-                    <textarea rows="2" cols="50" name="DESCRIPTION"  placeholder="Description of the article" style="resize:none;"></textarea>
+                    <textarea rows="2" cols="50"  title="The description of the article must contain at least 50 characters!" name="DESCRIPTION" class="form-control input-sm"  placeholder="Description of the article" style="resize:none;"></textarea>
                 </div>
                 <div class="form-group">
-                    <input type="text" size="50" name="USERNAME" autocomplete="off" placeholder="Your nickname" pattern='[a-zA-Z]{2,25}' 
-                    title="The name must be between 2 and 25 characters long" >
+                    <input type="text" size="50" name="USERNAME" class="form-control input-sm" autocomplete="off" placeholder="Your nickname" 
+                    title="The name must be between 2 and 20 characters long" >
                 </div>
                 <div class="form-group">
-                    <input type="text" size="50" name="LINK" autocomplete="off" placeholder="Link to the article" title="An existing link must be entered" >
+                    <input type="text" size="50" name="LINK" autocomplete="off" class="form-control input-sm" placeholder="Link to the article" title="An existing link must be entered" >
                 </div>
                 <div class="form-group">
-                    <input type="text" size="50" name="DATE" autocomplete="off" placeholder="Date of creation of article" title="The date must be in the format 'dd.MM.yyyy'" >
+                    <input type="text" size="50" name="DATE" autocomplete="off" class="form-control input-sm" placeholder="Date of creation of article" title="The date must be in the format 'dd.MM.yyyy'" >
                 </div>
                 <p><input type="submit" value="Append"  class="btn btn-default"></p>        
             </form>
