@@ -15,6 +15,9 @@ def addParthner():
     start_date = request.forms.get('date_start')
     contract_term = request.forms.get('contract_term')
     contract_type = request.forms.get('con_type')
+    # проверка полей
+    if (name == "" or description == "" or email == "" or phone == "" or start_date == "" or contract_term == ""):
+        return "First fill in all the fields."
     # Обнуляем счетчик для номера партнера
     number = 1
     # Открываем файл с партнерами для чтения и загружаем его содержимое в список
