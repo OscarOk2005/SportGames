@@ -56,7 +56,7 @@ input[type="checkbox"].input-validation-error {
 
 .input_container {
     position: fixed !important;
-    margin-left: 540px;
+    margin-left: 725px;
 }
 
 .input_form * {
@@ -109,4 +109,8 @@ input[type="checkbox"].input-validation-error {
 
 #container_forms {
     margin-top: 30px;
+}
+
+.row {
+    margin-top: 60px;
 }
